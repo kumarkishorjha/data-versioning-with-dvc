@@ -1,0 +1,2 @@
+1. Creating a my_code.py file where I am going to code. (It will save csv file to a new "data" folder.)
+2. Pushing the code before initializing dvc.
