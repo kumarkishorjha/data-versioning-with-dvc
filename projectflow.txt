@@ -12,3 +12,4 @@
         → data.dvc
     3. Stops Git from tracking the actual data
         → adds data/ to .gitignore
+8. Now commit and push the data inot "S3" using -> dvc commit -> dvc push
