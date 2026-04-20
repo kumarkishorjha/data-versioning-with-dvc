@@ -15,3 +15,7 @@
 8. Now commit and push the data inot "S3" using -> dvc commit -> dvc push
 
 9. Now make changes to my_code.py file to append a new row in tha data, check changes via "dvc status"
+10. Again -> dvc commit -> dvc push 
+11. Now git add, commit, push (we're saving v2 of our data at this point)
+12. Check dvc/git status, everything should be upto date
+12. Repeat speps from 9-11 for v3
