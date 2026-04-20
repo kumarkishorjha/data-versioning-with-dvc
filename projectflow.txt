@@ -1,2 +1,14 @@
 1. Creating a my_code.py file where I am going to code. (It will save csv file to a new "data" folder.)
 2. Pushing the code before initializing dvc.
+#  Before initializing dvc make sure it is installed on your system (use -> pip intall dvc -> if not installed)
+4. Now initializing dvc using -> dvc init (It will create .dvc, .dvcignore)
+5. Creating a new folder named "S3" (different versions of data will reside here.) --> in real world like AWS S3
+6. Connecting dvc to the "S3" using -> dvc remote add -d myremote S3 -> in real senario {url} of AWS S3 
+7. Now use -> dvc add data/ -> It tells dvc to “Start tracking everything inside the data/ folder as versioned data.”
+    > When you run it: 
+    1. DVC copies your data into its cache
+        → inside .dvc/cache/
+    2. Creates a tracking file
+        → data.dvc
+    3. Stops Git from tracking the actual data
+        → adds data/ to .gitignore
