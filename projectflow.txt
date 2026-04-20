@@ -13,3 +13,5 @@
     3. Stops Git from tracking the actual data
         → adds data/ to .gitignore
 8. Now commit and push the data inot "S3" using -> dvc commit -> dvc push
+
+9. Now make changes to my_code.py file to append a new row in tha data, check changes via "dvc status"
